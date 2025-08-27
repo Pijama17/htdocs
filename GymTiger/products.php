@@ -11,7 +11,7 @@ $search = $_GET['search'] ?? null;
     <div class="container">
         <h1 class="section-title">Our Products</h1>
         
-        <div class="products-grid">
+        <div class="products-grid"> 
             <?php
             require_once 'includes/db_connect.php';
             

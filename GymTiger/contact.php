@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-        // Sanitize and validate input
+        // Sanitize and validate input 
         $name = htmlspecialchars(trim($_POST['name']));
         $email = filter_var(trim($_POST['email']), FILTER_VALIDATE_EMAIL);
         $subject = htmlspecialchars(trim($_POST['subject']));

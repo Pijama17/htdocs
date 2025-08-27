@@ -13,7 +13,7 @@ $formData = [
     'email' => ''
 ];
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
     $formData['name'] = trim($_POST['name']);
     $formData['email'] = trim($_POST['email']);
     $password = $_POST['password'];

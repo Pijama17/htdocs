@@ -17,7 +17,7 @@ if (!isset($_SESSION['cart_count'])) {
 }
 
 // Database connection
-require_once __DIR__.'/db_connect.php';
+require_once __DIR__.'/db_connect.php'; 
 
 // Security headers
 header("X-Frame-Options: DENY");

@@ -16,7 +16,7 @@ $tax = $subtotal * 0.08; // Example 8% tax
 $total = $subtotal + $shipping + $tax;
 ?>
 
-<main class="cart-container">
+<main class="cart-container"> 
     <div class="container">
         <h1 class="cart-title">Your Shopping Cart</h1>
         

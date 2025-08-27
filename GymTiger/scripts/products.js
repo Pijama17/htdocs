@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             body: `product_id=${productId}&quantity=1&action=add`
         })
         .then(response => response.json())
-        .then(data => {
+        .then(data => { 
             if (data.success) {
                 // Update cart count in header
                 document.querySelectorAll('.cart-count').forEach(el => {

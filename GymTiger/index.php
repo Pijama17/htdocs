@@ -19,7 +19,7 @@ require_once 'includes/header.php';
     <meta property="og:url" content="https://www.gymtiger.com">
     <meta property="og:image" content="https://www.gymtiger.com/images/og-image.jpg">
     
-    <!-- Favicon -->
+    <!-- Favicon --> 
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
     

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             input.value = quantity;
         });
-    });
+    }); 
     
     // Confirm before removing item
     document.querySelectorAll('.remove-btn').forEach(button => {

@@ -16,7 +16,7 @@
     overflow: hidden;
 }
 
-.auth-form {
+.auth-form { 
     flex: 1;
     padding: 3rem;
     background: #fff;

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', function() {
             navLinks.forEach(item => item.classList.remove('active'));
             this.classList.add('active');
-        });
+        }); 
     });
     
     // Confirmation for logout

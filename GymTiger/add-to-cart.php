@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $item['quantity'] += 1;
             $found = true;
             break;
-        }
+        } 
     }
     
     // If not found, add new item

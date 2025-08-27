@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $redirect = $_SESSION['redirect_url'] ?? 'account.php';
                 unset($_SESSION['redirect_url']);
                 header('Location: ' . $redirect);
-                exit;
+                exit; 
             } else {
                 $error = 'Invalid email or password';
             }

@@ -19,7 +19,7 @@ $cartCount = $_SESSION['cart_count'] ?? 0;
     <?php endif; ?>
 </head>
 <body>
-    <!-- Announcement Bar -->
+    <!-- Announcement Bar --> 
     <div class="announcement-bar">
         <div class="container">
             <p>🔥 Free shipping on all orders over $50! Use code: TIGER10 for 10% off</p>

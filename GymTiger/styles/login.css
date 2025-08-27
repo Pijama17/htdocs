@@ -21,7 +21,7 @@ body {
     padding: 2rem;
 }
 
-.login-wrapper {
+.login-wrapper { 
     display: flex;
     width: 100%;
     max-width: 1000px;

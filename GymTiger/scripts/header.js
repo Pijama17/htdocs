@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             text: "NEW COLLECTION LAUNCHED", 
             icon: "fa-fire",
-            colors: ["#ff7675", "#e84393"]
+            colors: ["#ff7675", "#e84393"] 
         },
         { 
             text: "EXTENDED RETURNS: 60 DAYS", 
